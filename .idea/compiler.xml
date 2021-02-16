@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ServiceProviderA" />
+        <module name="ServiceProviderC" />
+        <module name="ServiceConsumer" />
+        <module name="ServiceProviderB" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="GR_FRIDAY_LNL" target="8" />
+      <module name="ServiceConsumer" target="8" />
+      <module name="ServiceProviderA" target="8" />
+      <module name="ServiceProviderB" target="8" />
+      <module name="ServiceProviderC" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
